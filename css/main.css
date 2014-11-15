@@ -220,14 +220,14 @@ textarea {
     margin: 2em 0;
 }
 
-.actions input[type='text']{
+#mc_embed_signup input.email{
     width: 300px;
     padding: 10px 20px;
     margin: 10px 0 0;
     border-radius: 20px;
     border: 1px solid #bbb;
 }
-.actions input[type='text']:focus{
+#mc_embed_signup input.email:focus{
     outline: 0 none;
     border-color: #97d6b5;
 }
