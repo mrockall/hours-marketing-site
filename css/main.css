@@ -139,6 +139,17 @@ textarea {
           transform: translateX(-50%) translateY(-380px);
 }
 
+@media only screen and (max-width: 767px) {
+    .hero{
+        padding-bottom: 50px;
+        height: auto;
+        border-bottom-width: 10px;
+    }
+    .hero .browser{
+        display: none;
+    }
+}
+
 /* ================== FEATURES ================== */
 
 .features{
@@ -147,6 +158,7 @@ textarea {
 }
 
 .features h2{
+    padding: 0 30px;
     text-align: center;
     font-weight: 400;
     color: #323232;
@@ -172,7 +184,62 @@ textarea {
     margin: 0 auto 15px;
 }
 
+@media only screen and (max-width: 767px) {
+    .features .feature{
+        float: none;
+        width: 100%;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+}
 
+/* ================== ACTIONS ================== */
+
+.actions{
+    background: #ddd;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.actions p{
+    max-width: 700px;
+    margin: 0 auto 1em;
+    padding: 0 50px;
+    font-size: 1.2em;
+    line-height: 1.75;
+    color: #323232;
+}
+
+.actions a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #323232;
+}
+
+.actions form{
+    margin: 2em 0;
+}
+
+.actions input[type='text']{
+    width: 300px;
+    padding: 10px 20px;
+    margin: 10px 0 0;
+    border-radius: 20px;
+    border: 1px solid #bbb;
+}
+.actions input[type='text']:focus{
+    outline: 0 none;
+    border-color: #97d6b5;
+}
+
+.actions input[type='submit']{
+    padding: 10px 20px;
+    margin: 10px 0 0;
+    border-radius: 20px;
+    background: #97d6b5;
+    color: white;
+    border: 1px solid #72c89b;
+}
 
 
 
