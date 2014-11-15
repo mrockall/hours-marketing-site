@@ -14,6 +14,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*
@@ -97,7 +98,44 @@ textarea {
 
 /* ================== HERO ================== */
 .hero{
-    height: 450px;
+    position: relative;
+    overflow: hidden;
+    height: 725px;
+    background: url('images/hero.jpg') center center;
+
+  -webkit-background-size: 100% 100%;
+          background-size: 100% 100%;
+}
+
+.hero .brand{
+    margin: 0 auto;
+    padding: 120px 0 0;
+    width: 300px;
+    text-align: center;
+    font-size: 5em;
+    font-weight: 600;
+    color: white;
+    background: url('images/logo.png') center 35px no-repeat;
+}
+
+.hero .tagline{
+    padding: 10px 0;
+    text-align: center;
+    color: #888;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+.hero .browser{
+    position: absolute;
+    top: 100%; left: 50%;
+    background: url('images/browser.png');
+    height: 562px;
+    width: 866px;
+
+  -webkit-transform: translateX(-50%) translateY(-380px);
+      -ms-transform: translateX(-50%) translateY(-380px);
+          transform: translateX(-50%) translateY(-380px);
 }
 
 
