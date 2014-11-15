@@ -102,6 +102,7 @@ textarea {
     overflow: hidden;
     height: 725px;
     background: url('images/hero.jpg') center center;
+    border-bottom: 20px solid #ddd;
 
   -webkit-background-size: 100% 100%;
           background-size: 100% 100%;
@@ -138,9 +139,38 @@ textarea {
           transform: translateX(-50%) translateY(-380px);
 }
 
+/* ================== FEATURES ================== */
 
+.features{
+    max-width: 1000px;
+    margin: 60px auto;
+}
 
+.features h2{
+    text-align: center;
+    font-weight: 400;
+    color: #323232;
+}
 
+.features .feature{
+    float: left;
+    width: 33%;
+    padding: 1.5em;
+    text-align: center;
+    line-height: 1.75;
+    color: #666;
+
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.features img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 15px;
+}
 
 
 
