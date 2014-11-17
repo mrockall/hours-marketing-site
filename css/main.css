@@ -100,7 +100,8 @@ textarea {
 .hero{
     position: relative;
     overflow: hidden;
-    height: 725px;
+    height: 630px;
+    padding: 100px 0 0;
     background: url('images/hero.jpg') center center;
     border-bottom: 20px solid #ddd;
 
@@ -110,33 +111,20 @@ textarea {
 
 .hero .brand{
     margin: 0 auto;
-    padding: 120px 0 0;
+    padding: 90px 0 0;
     width: 300px;
     text-align: center;
     font-size: 5em;
     font-weight: 600;
     color: white;
-    background: url('images/logo.png') center 35px no-repeat;
+    background: url('images/logo.png') center 10px no-repeat;
 }
 
 .hero .tagline{
-    padding: 10px 0;
     text-align: center;
     color: #888;
     font-size: 2.5em;
     font-weight: 300;
-}
-
-.hero .browser{
-    position: absolute;
-    top: 100%; left: 50%;
-    background: url('images/browser.png');
-    height: 562px;
-    width: 866px;
-
-  -webkit-transform: translateX(-50%) translateY(-380px);
-      -ms-transform: translateX(-50%) translateY(-380px);
-          transform: translateX(-50%) translateY(-380px);
 }
 
 @media only screen and (max-width: 767px) {
@@ -145,9 +133,35 @@ textarea {
         height: auto;
         border-bottom-width: 10px;
     }
-    .hero .browser{
+
+    .browser{
         display: none;
     }
+}
+
+/* ================== DEVICES ================== */
+
+.devices{
+    position: relative;
+    width: 1000px;
+    height: 280px;
+    margin: 0 auto;
+}
+
+.browser{
+    position: absolute;
+    bottom: 0; left: 0;
+    background: url('images/browser.png');
+    height: 590px;
+    width: 900px;
+}
+
+.phone{
+    position: absolute;
+    bottom: 0; right: 0;
+    background: url('images/iphone.png');
+    height: 540px;
+    width: 290px;
 }
 
 /* ================== FEATURES ================== */
