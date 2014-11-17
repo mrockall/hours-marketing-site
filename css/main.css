@@ -96,6 +96,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ================== ANIMATION ================== */
+.js-animate-hero-in, .js-animate-devices-in {
+    opacity: 0;
+}
+
 /* ================== HERO ================== */
 .hero{
     position: relative;
